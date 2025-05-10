@@ -1,0 +1,32 @@
+Package: CardioDataSets
+Type: Package
+Title: A Comprehensive Collection of Cardiovascular and Heart Disease Datasets
+Version: 0.1.0
+Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
+Description: Offers a diverse collection of datasets focused on cardiovascular and heart disease research, including heart failure, myocardial infarction, aortic dissection, transplant outcomes, cardiovascular risk factors, drug efficacy, and mortality trends. 
+    Designed for researchers, clinicians, epidemiologists, and data scientists, the package features clinical, epidemiological, and simulated datasets covering a wide range of conditions and treatments such as statins, anticoagulants, and beta blockers. 
+    It supports analyses related to disease progression, treatment effects, rehospitalization, and public health outcomes across various cardiovascular patient populations.
+License: GPL-3
+URL: https://github.com/lightbluetitan/cardiodatasets
+BugReports: https://github.com/lightbluetitan/cardiodatasets/issues
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    testthat (>= 3.0.0),
+    dplyr,
+    knitr,
+    rmarkdown
+Depends: R (>= 4.2.0)    
+Imports:
+    utils
+Authors@R: 
+    person(
+        given = "Renzo",
+        family = "Caceres Rossi",
+        role = c("aut", "cre"),
+        email = "arenzocaceresrossi@gmail.com"
+    )
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr

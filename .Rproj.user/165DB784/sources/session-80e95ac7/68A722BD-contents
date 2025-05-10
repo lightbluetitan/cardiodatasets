@@ -1,0 +1,9 @@
+# Comprimir datasets
+files <- list.files("data/", pattern = "\\.rda$", full.names = TRUE)
+
+for (file in files) {
+  load(file)
+  obj_name <- sub("\\.rda$", "", basename(file))
+  save(list = obj_name, file = file, compress = "xz")
+}
+

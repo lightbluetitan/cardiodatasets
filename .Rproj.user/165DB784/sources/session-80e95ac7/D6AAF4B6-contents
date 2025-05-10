@@ -1,0 +1,195 @@
+# Developer Packages
+
+library(devtools)
+library(usethis)
+library(testthat)
+library(available)
+library(roxygen2)
+library(pkgdown)
+
+# Activate Datasets packages
+
+library(cheese)
+library(drc)
+library(gemtc)
+library(metadat)
+library(bnlearn)
+library(esci)
+library(openintro)
+library(MASS)
+library(survPen)
+library(SOPC)
+library(sur)
+library(Rfit)
+library(faraway)
+library(qrLMM)
+library(aSPU)
+library(astsa)
+library(loon.data)
+library(mixmeta)
+library(geepack)
+library(RTSA)
+library(psfmi)
+library(rigr)
+library(lattice)
+library(BSDA)
+library(locfit)
+library(Path.Analysis)
+library(flexmsm)
+library(lrstat)
+library(getmstatistic)
+library(CopulaREMADA)
+library(UsingR)
+library(moonBook)
+library(R2MLwiN)
+library(VMDecomp)
+library(flexmsm)
+library(bnma)
+library(MDDC)
+library(npsurv)
+
+# Change dataset name
+
+heartdisease_tbl_df <- heart_disease # 1 # - # DOCU # test1
+
+# heartrate_df <- heartrate # 2  # - # DOCU # test1
+
+hfPrevention_mtc_network <- hfPrevention # 3  # - # DOCU # test1
+
+# thrombolytic_mtc_network <- thrombolytic # 4  # - # DOCU # test1
+
+cad_anticoagulants_df <- dat.anand1999 # 5  # - # DOCU # test 1
+
+coronary_death_df <- dat.cannon2006 # 6 # - # DOCU # test 1
+
+myocardialinfarction_df <- dat.lau1992 # 7 # - # DOCU # test 1
+
+# coronary_disease_df <- coronary # 8 # - # DOCU # test 1
+
+emotion_heartrate_df <- data_emotion_heartrate # 9 # - # DOCU # test 1
+
+cardio_diabetes_tbl_df <- avandia # 10 # - # DOCU # test 1
+
+cpr_survival_tbl_df <- cpr # 11 # - # DOCU # test 1
+
+sulphinpyrazone_tbl_df <- sulphinpyrazone # 12 # - # DOCU # test 1
+
+ami_occurrences_tbl_df <- ami_occurrences # 13 # - # DOCU # test 1
+
+heartfailure_df <- HeartFailure # 14 # - # DOCU # test 1
+
+cardiac_failure_df <- Heart # 15 # - # DOCU # test 1
+
+cardioRiskFactors_df <- CardioRiskFactors # 16 # - # DOCU # test 1
+
+cv_mortality_ts <- cmort # 17 # - # DOCU # test 1
+
+# thrombolytic_therapy_df <- thrombolytic # 18 # - # DOCU # test 1
+
+muscatine_coronary_risk_df <- muscatine # 19 # - # DOCU # test 1
+
+statinMIrisk_df <- coronary # 20 # - # DOCU # test 1
+
+aortaDiss_tbl_df <- aortadis # 21 # - # DOCU # test 1
+
+mriCardioVars_tbl_df <- mri # 22 # - # DOCU # test 1
+
+usMortality_df <- USMortality # 23 # - # DOCU # test 1
+
+heart_transplant_df <- heart # 24 # - # DOCU # test 1
+
+heartTransplantTime_tbl_df <- Artifici # 25 # - # DOCU # test 1
+
+heartdiseaserisk_tbl_df <- heart # 26 # - # DOCU # test 1
+
+patient_CAV_df <- IDM_cav # 27 # - # DOCU # test 1
+
+# blocker_mtc_network <- blocker # 28 # - # DOCU # test 1
+
+cardiovascular_list <- cardiovascular # 29 # - # DOCU # test 1
+
+betablockers_matrix <- betablocker500 # 30 # - # DOCU # test 1
+
+scottish_CVD_df <- cvd # 31 # - # DOCU # test 1
+
+acs_patients_df <- acs # 32 # - # DOCU # test 1
+
+age_heartrate_df <- heartrate # 33 # - # DOCU # test 1
+
+radial_ivus_df <- radial # 34 # - # DOCU # test 1
+
+cardiac_gwas_df <- heartgenes214 # 35 # - # test 1
+
+# Generar archivos *.rda - carpeta data/
+# save(cancer_in_dogs_tbl_df,file="data/cancer_in_dogs_tbl_df.rda")
+
+
+save(heartdisease_tbl_df,file="data/heartdisease_tbl_df.rda") # 1
+
+save(heartrate_df,file="data/heartrate_df.rda") # 2
+
+save(hfPrevention_mtc_network,file="data/hfPrevention_mtc_network.rda") # 3
+
+save(thrombolytic_mtc_network,file="data/thrombolytic_mtc_network.rda") # 4
+
+save(cad_anticoagulants_df,file="data/cad_anticoagulants_df.rda") # 5
+
+save(coronary_death_df,file="data/coronary_death_df.rda") # 6
+
+save(myocardialinfarction_df,file="data/myocardialinfarction_df.rda") # 7 
+
+# save(coronary_disease_df,file="data/coronary_disease_df.rda") # 8
+
+save(emotion_heartrate_df,file="data/emotion_heartrate_df.rda") # 9
+
+save(cardio_diabetes_tbl_df,file="data/cardio_diabetes_tbl_df.rda") # 10
+
+save(cpr_survival_tbl_df,file="data/cpr_survival_tbl_df.rda") # 11
+
+save(sulphinpyrazone_tbl_df,file="data/sulphinpyrazone_tbl_df.rda") # 12
+
+save(ami_occurrences_tbl_df,file="data/ami_occurrences_tbl_df.rda") # 13
+
+save(heartfailure_df,file="data/heartfailure_df.rda") # 14
+
+save(cardiac_failure_df,file="data/cardiac_failure_df.rda") # 15
+
+save(cardioRiskFactors_df,file="data/cardioRiskFactors_df.rda") # 16
+
+save(cv_mortality_ts,file="data/cv_mortality_ts.rda") # 17
+
+save(thrombolytic_therapy_df,file="data/thrombolytic_therapy_df.rda") # 18
+
+save(muscatine_coronary_risk_df,file="data/muscatine_coronary_risk_df.rda") # 19
+
+save(statinMIrisk_df,file="data/statinMIrisk_df.rda") # 20
+
+save(aortaDiss_tbl_df,file="data/aortaDiss_tbl_df.rda") # 21
+
+save(mriCardioVars_tbl_df,file="data/mriCardioVars_tbl_df.rda") # 22
+
+save(usMortality_df,file="data/usMortality_df.rda") # 23
+
+save(heart_transplant_df,file="data/heart_transplant_df.rda") # 24
+
+save(heartTransplantTime_tbl_df,file="data/heartTransplantTime_tbl_df.rda") # 25
+
+save(heartdiseaserisk_tbl_df,file="data/heartdiseaserisk_tbl_df.rda") # 26
+
+save(patient_CAV_df,file="data/patient_CAV_df.rda") # 27
+
+save(blocker_mtc_network,file="data/blocker_mtc_network.rda") # 28
+
+save(cardiovascular_list,file="data/cardiovascular_list.rda") # 29
+
+save(betablockers_matrix,file="data/betablockers_matrix.rda") # 30
+
+save(scottish_CVD_df,file="data/scottish_CVD_df.rda") # 31
+
+save(acs_patients_df,file="data/acs_patients_df.rda") # 32
+
+save(age_heartrate_df,file="data/age_heartrate_df.rda") # 33
+
+save(radial_ivus_df,file="data/radial_ivus_df.rda") # 34
+
+save(cardiac_gwas_df,file="data/cardiac_gwas_df.rda") # 35

@@ -1,0 +1,274 @@
+Main Package: CardioDataSets
+License: GPL-3
+
+Package: cheese 0.1.2
+License: MIT + file LICENSE
+
+1.- heart_disease - Heart Disease
+
+Package: drc 3.0-1
+License: GPL-2 | file LICENCE
+
+1.- heartrate - Heart rate baroreflexes for rabbits
+
+Package: gemtc 1.0-2
+License: GPL-3
+
+1.- atrialFibrillation - Prevention of stroke in atrial fibrillation patients
+2.- hfPrevention - Statins versus placebo in primary and secondary prevention of heart failure
+3.- thrombolytic - Thrombolytic treatment after acute myocardial infarction
+
+Package: metadat 1.2-0
+License: GPL (>= 2)
+
+1.- dat.anand1999 - Studies on the Effectiveness of Oral Anticoagulants in Patients with Coronary Artery Disease
+2.- dat.cannon2006                   Studies on the Effectiveness of Intensive Versus Moderate Statin
+                                 Therapy for Preventing Coronary Death or Myocardial Infarction
+
+
+3.- dat.lau1992 - Studies on Intravenous Streptokinase for Acute Myocardial Infarction
+
+Package: bnlearn 5.0.1
+License: GPL (>= 2)
+
+1.- coronary - Coronary heart disease data set
+
+Package: esci 1.0.7
+License: GPL-3
+
+1.- data_emotion_heartrate - Emotion heartrate - Ch8 - from Lakens (2013)
+
+Package: openintro 2.5.0
+License: GPL-3
+
+1.- avandia - Cardiovascular problems for two types of Diabetes medicines
+2.- cpr - CPR dataset
+3.- sulphinpyrazone - Treating heart attacks
+4.- ami_occurrences - Acute Myocardial Infarction (Heart Attack) Events
+
+
+Package: survPen 2.0.2
+License: GPL-3 | file LICENSE
+
+1.- HeartFailure - Patients with heart failure at risk of recurrent hospitalization events
+
+Package: SOPC 0.1.0
+License: MIT + file LICENSE
+
+1.- Heart - Heart failure
+
+Package: sur 1.0.4
+License: GPL (>= 2)
+
+1.- Framingham - Framingham Heart Study
+
+Package: Rfit 0.27.0
+License: GPL (>= 2)
+
+1.- CardioRiskFactors - Cardiovascular risk factors
+
+Package: faraway 1.0.9
+License: GPL
+
+1.- diabetes - Diabetes and obesity, cardiovascular risk factors
+
+
+!!!!!!Package: qrLMM 2.3 - NO UTILIZAR ESTE PAQUETE
+License: GPL (>= 2)
+
+1.- Cholesterol - Framingham cholesterol study
+
+
+!!!!!!Package: ade4 1.7-22 - FUERA DE LA LISTA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+License: GPL (>= 2)
+
+1.- ecg - Electrocardiogram data
+
+
+!!!!!Package: aSPU 1.50 FUERA DE LISTA
+License: GPL-3
+
+1.- kegg9 - A subset of coronary artery disease (CAD) data
+
+Package: astsa 2.2
+License: GPL (>= 2)
+
+1.- cmort - Cardiovascular Mortality from the LA Pollution study
+
+
+!!!!!!!Package: baggr 0.7.8 - NO UTILIZAR EN EL PAQUETE!!!!!!
+License: GPL (>= 3)
+
+1.- yusuf - Yusuf et al: beta-blockers and heart attacks
+
+
+!!!!!!Package: loon.data 0.1.3 - NO UTILIZAR EN EL PAQUETE
+License: GPL-2
+
+1.- SAheart - South African Heart Disease Data
+
+!!!!!!Package: joineRML 0.4.7 NO UTILIZAR ESTE PAQUETE!!!!!!!!!!!!!!!!!
+License: GPL-3 | file LICENSE
+
+1.- heart.valve - Aortic valve replacement surgery data
+
+Package: mixmeta 1.2.0
+License: GPL (>= 2)
+
+1.- thrombolytic - Randomized Trials of Thrombolytic Therapy
+
+Package: geepack 1.3.12
+License: GPL (>= 3)
+
+1.- muscatine - Data on Obesity from the Muscatine Coronary Risk Factor Study.
+
+Package: RTSA 0.2.2
+License: GPL (>= 2)
+
+1.- coronary - Dataset of trials investigating the intensity of statin therapy on the risk of myocardial infarction or coronary death
+
+
+Package: psfmi 1.4.0
+License: GPL (>= 2)
+
+1.- aortadis - Dataset of patients with a aortadissection
+
+
+!!!!!Package: meta 8.0-1 - NO UTILIZAR EN EL PAQUETE!!!!!!!!!!!!!!!!!!
+License: GPL (>= 2)
+
+1.- Fleiss1993bin - Aspirin after Myocardial Infarction
+2.- Olkin1995 - Thrombolytic Therapy after Acute Myocardial Infarction
+
+
+!!!!!!Package: disbayes 1.1.0 - NO UTILIZAR EN ESTE PAQUETTE!!!!!
+License: GPL-3
+
+1.- ihdengland - Ischemic heart disease in England
+2.- ihdtrends - Trends in ischemic heart disease in England
+
+
+Package: rigr 1.0.7
+License: MIT + file LICENSE
+
+1.- mri - MRI dataset
+
+!!!!!!!Package: rnmamod 0.4.0 - no utitlizar en el paquete!!!!!!!!!!!!!!!!!!
+License: GPL (>= 3)
+
+1.- nma.dogliotti2014 - Oral antithrombotics for stroke episode
+
+!!!!!!!Package: evidence 0.8.10 - NO UTILIZAR EN EL PAQUETE
+License: GPL (>= 2)
+
+1.- Aspirin - A contingency table for heart attacks and aspirin use.
+2.- bodytemp - Data on body temperature, heart rate, and gender of 130 human subjects.
+
+Package: lattice 0.22-6
+License: GPL (>= 2)
+
+1.- USMortality - Mortality Rates in US by Cause and Gender
+
+Package: lrstat 0.2.13
+License: GPL (>= 2)
+
+1.- heart - Stanford heart transplant data from the survival package
+
+Package: BSDA 1.2.3
+License: GPL-3
+
+1.- Artifici - Durations of operation for 15 artificial heart transplants
+
+Package: Path.Analysis 0.1
+License: GPL-3
+
+
+1.- heart - Dataset 6: Heart Disease data set
+
+!!!!!Package: locfit 1.5-9.10 - NO INCLUIDO EN LA LISTA
+License: GPL (>= 2)
+
+1.- heart - Survival Times of Heart Transplant Recipients
+
+
+Package: flexmsm 0.1.2
+License: MIT + file LICENSE
+
+1.- IDM_cav - Cardiac allograft vasculopathy (CAV) data
+
+Package: bnma 1.6.0
+License: GPL-3
+
+1.- blocker - Beta blockers to prevent mortality after myocardial infarction
+2.- cardiovascular - Trials of low dose and high dose statins for cardiovascular disease vs. placebo
+3.- !!!!!- NO INCLUIDO - thrombolytic - Thrombolytic drugs and percutaneous transluminal coronary angioplasty
+
+Package: MDDC 1.1.0
+License: GPL-3
+
+1.- betablocker500 - FDA dataset for beta blockers with 500 adverse events
+
+!!!!NO INCLUIDO EN EL PAQUETE - Package: npsurv 0.5-0
+License: GPL (>= 2)
+
+1.- ap - Angina Pectoris Survival Data
+
+!!!!! NO INCLUIDO EN EL PAQUETE - Package: VMDecomp 1.0.1
+License: GPL-3
+
+1.- arrhythmia - Sample Arrhythmia Data from MIT Boston's Beth Israel Hospital (BIH) Database
+
+!!!!!!!!!!!!!Package: mlmts 1.1.2 - NO UTILIZAR ESTE PAQUETE
+License: GPL-2
+
+1.- AtrialFibrillation - AtrialFibrillation
+2.- Heartbeat - Heartbeat
+
+
+!!!!!!Package: multinma 0.8.0 - NO UTILIZAR ESTE PAQUETE
+License: GPL-3
+
+1.- atrial_fibrillation - Stroke prevention in atrial fibrillation patients
+2.- thrombolytics - Thrombolytic treatments data
+
+Package: R2MLwiN 0.8-9
+License: GPL (>= 2)
+
+1.- cvd - Data from the 1998 Scottish Health Survey on cardiovascular disease status of 8804 respondents
+
+
+Package: moonBook 0.3.1
+License: GPL-2
+
+1.- acs - Demographic data of 857 patients with ACS
+2.- radial - Demographic data of 115 patients performing IVUS(intravascular ultrasound) examination of a radial artery.
+
+
+Package: UsingR 2.0-7
+License: GPL (>= 2)
+
+1.- heartrate - Simulated data of age vs. max heart rate
+
+
+!!!!!!Package: modgo 1.0.1 - NO UTILIZAR ESTE PAQUETE
+License: GPL-3
+
+1.- Cleveland - Cleveland Dataset ('Cleveland')
+
+Package: CopulaREMADA 1.7.3
+License: GPL (>= 3.5.0)
+
+1.- MK2016 - The coronary CT angiography data in Menke and Kowalski (2016).
+2.- coronary - The coronary CT angiography data
+
+
+Package: getmstatistic 0.2.2
+License: MIT + file LICENSE
+
+1.- heartgenes214 - heartgenes214.
+
+
+
+
+
+
